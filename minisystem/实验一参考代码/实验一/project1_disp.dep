@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>2</fileVersion>
+    <fileChecksum>4287961364</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\Debug\Obj\timer.r43</file>
+            <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+            <file>$PROJ_DIR$\HARDWARE\timer.c</file>
+            <file>$PROJ_DIR$\HARDWARE\key.c</file>
+            <file>$PROJ_DIR$\Debug\List\project1_disp.map</file>
+            <file>$TOOLKIT_DIR$\config\linker\lnk430f5529.xcl</file>
+            <file>$PROJ_DIR$\HARDWARE\IIC.c</file>
+            <file>$TOOLKIT_DIR$\lib\dlib\dl430xlsfn.r43</file>
+            <file>$PROJ_DIR$\HARDWARE\main.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\IIC.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\IIC.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\IOInit.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\timer.__cstat.et</file>
+            <file>$PROJ_DIR$\HARDWARE\font.h</file>
+            <file>$PROJ_DIR$\HARDWARE\IIC.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\key.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\Debug\Exe\project1_disp.d43</file>
+            <file>$PROJ_DIR$\Debug\Obj\key.r43</file>
+            <file>$PROJ_DIR$\Debug\Exe\project1_disp.ulp</file>
+            <file>$PROJ_DIR$\Debug\Obj\IOInit.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$PROJ_DIR$\HARDWARE\clk.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\project1_disp.pbd</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
+            <file>$PROJ_DIR$\IOInit.c</file>
+            <file>$PROJ_DIR$\HARDWARE\clk.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\key.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\msp430f5529.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\clk.r43</file>
+            <file>$TOOLKIT_DIR$\inc\in430.h</file>
+            <file>$PROJ_DIR$\HARDWARE\timer.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\timer.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\clk.__cstat.et</file>
+            <file>$PROJ_DIR$\HARDWARE\key.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\clk.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\IIC.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\config\linker\multiplier32.xcl</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 17 4</file>
+                </tool>
+                <tool>
+                    <name>ULP430</name>
+                    <file> 19</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\HARDWARE\timer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 0</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 32</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 12</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 28 30 1 31</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 30 1 28 31</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\HARDWARE\key.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 18</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 27</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 15</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 28 30 1 34</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 30 1 28 34</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\HARDWARE\IIC.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 9</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 10</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 36</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 14 28 30 1 13</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 30 13 28 14 1</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\HARDWARE\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 24</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 16</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 21</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 28 30 1 34 14</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 30 14 28 34 1</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\project1_disp.d43</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 4</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 5 37 9 18 24 7</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\IOInit.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 20</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 11</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\HARDWARE\clk.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 29</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 35</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 33</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 28 30 1 22</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 30 1 28 22</file>
+                </tool>
+            </inputs>
+        </file>
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>XLINK</tool>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>XLINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>
