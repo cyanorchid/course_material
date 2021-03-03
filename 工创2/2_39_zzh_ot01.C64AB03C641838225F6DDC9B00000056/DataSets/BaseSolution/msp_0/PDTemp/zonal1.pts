@@ -1,0 +1,77 @@
+*File:   D:/Program Files (x86)/MentorMA/flosuite_v12/flotherm/flouser/2_39_zzh_ot01.C64AB03C641838225F6DDC9B00000056/DataSets/BaseSolution/msp_0/PDTemp/zonal1 for Solver;
+* Copyright 1989-2017 Mentor Graphics Corporation. All Rights Reserved.;
+* New Zone...
+          zonecp;flow    0001=io ;        IXLOFACE;     1;     1;     1;    25;     1;    19;     1;    -1;
+          zsercp;flow    0001=io ;807B96D4FD8436A234FA83B000000026;     0;    10;        IXLOFACE;
+          objnum;flow    0001=io ;     0;
+            cvcp;flow    0001=io ;     1;2.32280e+002;0.00000e+000;
+            cvcp;flow    0001=io ;     2;0.00000e+000;0.00000e+000;
+            cvcp;flow    0001=io ;     3;0.00000e+000;0.00000e+000;
+            cvcp;flow    0001=io ;     4;0.00000e+000;0.00000e+000;
+            cvcp;flow    0001=io ;     7;0.00000e+000;2.50000e+001;
+         fluidcp;flow    0001=io ;     1;
+          outrcp;flow    0001=io ;     2;
+* New Zone...
+          zonecp;flow    0002=io ;        IXHIFACE;    25;    25;     1;    25;     1;    19;     1;    -1;
+          zsercp;flow    0002=io ;807B96D4FD8436A234FA83B000000026;     0;    10;        IXHIFACE;
+          objnum;flow    0002=io ;     0;
+            cvcp;flow    0002=io ;     1;2.32280e+002;0.00000e+000;
+            cvcp;flow    0002=io ;     2;0.00000e+000;0.00000e+000;
+            cvcp;flow    0002=io ;     3;0.00000e+000;0.00000e+000;
+            cvcp;flow    0002=io ;     4;0.00000e+000;0.00000e+000;
+            cvcp;flow    0002=io ;     7;0.00000e+000;2.50000e+001;
+         fluidcp;flow    0002=io ;     1;
+          outrcp;flow    0002=io ;     2;
+* New Zone...
+          zonecp;flow    0003=io ;        IYLOFACE;     1;    25;     1;     1;     1;    19;     1;    -1;
+          zsercp;flow    0003=io ;807B96D4FD8436A234FA83B000000026;     0;    10;        IYLOFACE;
+          objnum;flow    0003=io ;     0;
+            cvcp;flow    0003=io ;     1;2.32280e+002;0.00000e+000;
+            cvcp;flow    0003=io ;     2;0.00000e+000;0.00000e+000;
+            cvcp;flow    0003=io ;     3;0.00000e+000;0.00000e+000;
+            cvcp;flow    0003=io ;     4;0.00000e+000;0.00000e+000;
+            cvcp;flow    0003=io ;     7;0.00000e+000;2.50000e+001;
+         fluidcp;flow    0003=io ;     1;
+          outrcp;flow    0003=io ;     2;
+* New Zone...
+          zonecp;flow    0004=io ;        IYHIFACE;     1;    25;    25;    25;     1;    19;     1;    -1;
+          zsercp;flow    0004=io ;807B96D4FD8436A234FA83B000000026;     0;    10;        IYHIFACE;
+          objnum;flow    0004=io ;     0;
+            cvcp;flow    0004=io ;     1;2.32280e+002;0.00000e+000;
+            cvcp;flow    0004=io ;     2;0.00000e+000;0.00000e+000;
+            cvcp;flow    0004=io ;     3;0.00000e+000;0.00000e+000;
+            cvcp;flow    0004=io ;     4;0.00000e+000;0.00000e+000;
+            cvcp;flow    0004=io ;     7;0.00000e+000;2.50000e+001;
+         fluidcp;flow    0004=io ;     1;
+          outrcp;flow    0004=io ;     2;
+* New Zone...
+          zonecp;flow    0005=io ;        IZLOFACE;     1;    25;     1;    25;     1;     1;     1;    -1;
+          zsercp;flow    0005=io ;807B96D4FD8436A234FA83B000000026;     0;    10;        IZLOFACE;
+          objnum;flow    0005=io ;     0;
+            cvcp;flow    0005=io ;     1;2.32280e+002;0.00000e+000;
+            cvcp;flow    0005=io ;     2;0.00000e+000;0.00000e+000;
+            cvcp;flow    0005=io ;     3;0.00000e+000;0.00000e+000;
+            cvcp;flow    0005=io ;     4;0.00000e+000;0.00000e+000;
+            cvcp;flow    0005=io ;     7;0.00000e+000;2.50000e+001;
+         fluidcp;flow    0005=io ;     1;
+          outrcp;flow    0005=io ;     2;
+* New Zone...
+          zonecp;flow    0006=io ;        IZHIFACE;     1;    25;     1;    25;    19;    19;     1;    -1;
+          zsercp;flow    0006=io ;807B96D4FD8436A234FA83B000000026;     0;    10;        IZHIFACE;
+          objnum;flow    0006=io ;     0;
+            cvcp;flow    0006=io ;     1;2.32280e+002;0.00000e+000;
+            cvcp;flow    0006=io ;     2;0.00000e+000;0.00000e+000;
+            cvcp;flow    0006=io ;     3;0.00000e+000;0.00000e+000;
+            cvcp;flow    0006=io ;     4;0.00000e+000;0.00000e+000;
+            cvcp;flow    0006=io ;     7;0.00000e+000;2.50000e+001;
+         fluidcp;flow    0006=io ;     1;
+          outrcp;flow    0006=io ;     2;
+* New Zone...
+          zonecp;*bodybouss  =bdy;        CELL    ;     1;    25;     1;    25;     1;    19;     1;    -1;
+          zsercp;*bodybouss  =bdy;00000000000000000000000000000000;     0;     0;        CELL    ;
+          objnum;*bodybouss  =bdy;     0;
+            cvcp;*bodybouss  =bdy;     2;-1.00000e+002;0.00000e+000;
+            cvcp;*bodybouss  =bdy;     3;-1.00000e+002;-3.27000e-002;
+            cvcp;*bodybouss  =bdy;     4;-1.00000e+002;0.00000e+000;
+*  
+     end_of_data;
