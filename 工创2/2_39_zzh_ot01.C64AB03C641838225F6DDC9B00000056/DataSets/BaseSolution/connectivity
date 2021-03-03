@@ -1,0 +1,19 @@
+# EMBEDDED GRID CONNECTIVITY 1.0
+# Copyright 1989-2017 Mentor Graphics Corporation. All Rights Reserved.
+
+# grid id and parent
+0 0
+C64AB03C641838225F8045FF00000000
+# boundary flags
+0 0 0 0 0 0 
+-1
+# end of grid
+
+# grid id and parent
+1 0
+C64AB03C641838225F6DDC9B0000005B
+# boundary flags
+1 1 1 1 1 1 
+-1
+# end of grid
+# end of file
