@@ -1,0 +1,359 @@
+summary_output_from_solver;
+solver_version; V12.0 Build 17.28.4;
+*file: drvprop.pts output from Solver
+*Copyright 1989-2017 Mentor Graphics Corporation. All Rights Reserved.
+*========================================
+*= start of zonal output ================
+*= summary output requested =============
+*========================================
+*------------------
+zoneod; flow    0001=io  ;
+  boundary_type   ;external;
+  solver_geom_typ ;IXLOFACE;
+  geom_label_typ ;IXLOFACE;
+  position_num ;0;
+  geom_enum_typ ;10;
+  serial ;807B96D4FD8436A234FA83B000000026 ;
+    max_temp  ; 2.5999e+001;
+    min_temp  ; 2.5000e+001;
+    mass_flow_in  ; 1.6122e-004;
+    mass_flow_out  ; 1.4844e-005;
+    vol_flow_in  ; 1.3882e-004;
+    vol_flow_out  ; 1.2781e-005;
+    heat_flow_in_T  ;-1.2696e-005;
+    heat_flow_out_T  ; 1.1735e-002;
+    temp_flow_in  ; 2.5000e+001;
+    temp_flow_out  ; 2.5787e+001;
+*------------------
+zoneod; flow    0002=io  ;
+  boundary_type   ;external;
+  solver_geom_typ ;IXHIFACE;
+  geom_label_typ ;IXHIFACE;
+  position_num ;0;
+  geom_enum_typ ;10;
+  serial ;807B96D4FD8436A234FA83B000000026 ;
+    max_temp  ; 2.5999e+001;
+    min_temp  ; 2.5000e+001;
+    mass_flow_in  ; 1.6129e-004;
+    mass_flow_out  ; 1.4876e-005;
+    vol_flow_in  ; 1.3887e-004;
+    vol_flow_out  ; 1.2809e-005;
+    heat_flow_in_T  ;-1.2701e-005;
+    heat_flow_out_T  ; 1.1757e-002;
+    temp_flow_in  ; 2.5000e+001;
+    temp_flow_out  ; 2.5787e+001;
+*------------------
+zoneod; flow    0003=io  ;
+  boundary_type   ;external;
+  solver_geom_typ ;IYLOFACE;
+  geom_label_typ ;IYLOFACE;
+  position_num ;0;
+  geom_enum_typ ;10;
+  serial ;807B96D4FD8436A234FA83B000000026 ;
+    max_temp  ; 2.5000e+001;
+    min_temp  ; 2.5000e+001;
+    mass_flow_in  ; 4.5425e-005;
+    mass_flow_out  ; 0.0000e+000;
+    vol_flow_in  ; 3.9112e-005;
+    vol_flow_out  ; 0.0000e+000;
+    heat_flow_in_T  ;-3.5766e-006;
+    heat_flow_out_T  ; 0.0000e+000;
+    temp_flow_in  ; 2.5000e+001;
+*------------------
+zoneod; flow    0004=io  ;
+  boundary_type   ;external;
+  solver_geom_typ ;IYHIFACE;
+  geom_label_typ ;IYHIFACE;
+  position_num ;0;
+  geom_enum_typ ;10;
+  serial ;807B96D4FD8436A234FA83B000000026 ;
+    max_temp  ; 2.7421e+001;
+    min_temp  ; 2.5228e+001;
+    mass_flow_in  ; 0.0000e+000;
+    mass_flow_out  ; 6.3806e-004;
+    vol_flow_in  ; 0.0000e+000;
+    vol_flow_out  ; 5.4939e-004;
+    heat_flow_in_T  ; 0.0000e+000;
+    heat_flow_out_T  ; 9.5793e-001;
+    temp_flow_out  ; 2.6495e+001;
+*------------------
+zoneod; flow    0005=io  ;
+  boundary_type   ;external;
+  solver_geom_typ ;IZLOFACE;
+  geom_label_typ ;IZLOFACE;
+  position_num ;0;
+  geom_enum_typ ;10;
+  serial ;807B96D4FD8436A234FA83B000000026 ;
+    max_temp  ; 2.5745e+001;
+    min_temp  ; 2.5000e+001;
+    mass_flow_in  ; 1.6355e-004;
+    mass_flow_out  ; 1.3564e-005;
+    vol_flow_in  ; 1.4082e-004;
+    vol_flow_out  ; 1.1679e-005;
+    heat_flow_in_T  ;-1.2875e-005;
+    heat_flow_out_T  ; 8.2434e-003;
+    temp_flow_in  ; 2.5000e+001;
+    temp_flow_out  ; 2.5607e+001;
+*------------------
+zoneod; flow    0006=io  ;
+  boundary_type   ;external;
+  solver_geom_typ ;IZHIFACE;
+  geom_label_typ ;IZHIFACE;
+  position_num ;0;
+  geom_enum_typ ;10;
+  serial ;807B96D4FD8436A234FA83B000000026 ;
+    max_temp  ; 2.5745e+001;
+    min_temp  ; 2.5000e+001;
+    mass_flow_in  ; 1.6356e-004;
+    mass_flow_out  ; 1.3567e-005;
+    vol_flow_in  ; 1.4083e-004;
+    vol_flow_out  ; 1.1681e-005;
+    heat_flow_in_T  ;-1.2877e-005;
+    heat_flow_out_T  ; 8.2429e-003;
+    temp_flow_in  ; 2.5000e+001;
+    temp_flow_out  ; 2.5607e+001;
+*------------------
+zoneod; *wall   0008=bw  ;
+  boundary_type   ;internal;
+  solver_geom_typ ;IXHIFACE;
+  geom_label_typ ;IXLOFACE;
+  position_num ;0;
+  geom_enum_typ ;1;
+  serial ;C64AB03C641838225F6DDC9B0000005B ;
+*WallDiffModification Zone
+*------------------
+zoneod; /*wall  0009=bw  ;
+  boundary_type   ;internal;
+  solver_geom_typ ;IXHIFACE;
+  geom_label_typ ;IXLOFACE;
+  position_num ;0;
+  geom_enum_typ ;1;
+  serial ;C64AB03C641838225F6DDC9B0000005B ;
+    heat_flow_thru+T  ; 0.0000e+000;
+    heat_flow_thru-T  ; 3.3193e-002;
+    heat_flow_thru+C  ; 0.0000e+000;
+    heat_flow_thru-C  ; 3.3193e-002;
+    heat_flow_thru+D  ; 0.0000e+000;
+    heat_flow_thru-D  ; 0.0000e+000;
+    surface_temp  ; 5.0351e+001;
+    max_surface_temp  ; 5.0411e+001;
+    min_surface_temp  ; 5.0230e+001;
+    SS_max_surface_temp  ;-1.0000e+030;
+    SS_min_surface_temp  ; 1.0000e+030;
+    SF_surface_temp  ; 5.0351e+001;
+    SF_max_surface_temp  ; 5.0411e+001;
+    SF_min_surface_temp  ; 5.0230e+001;
+    surface_area  ; 1.0000e-004;
+    SS_surface_area  ; 0.0000e+000;
+    SF_surface_area  ; 1.0000e-004;
+*------------------
+zoneod; *wall   000a=bw  ;
+  boundary_type   ;internal;
+  solver_geom_typ ;IXLOFACE;
+  geom_label_typ ;IXHIFACE;
+  position_num ;0;
+  geom_enum_typ ;1;
+  serial ;C64AB03C641838225F6DDC9B0000005B ;
+*WallDiffModification Zone
+*------------------
+zoneod; /*wall  000b=bw  ;
+  boundary_type   ;internal;
+  solver_geom_typ ;IXLOFACE;
+  geom_label_typ ;IXHIFACE;
+  position_num ;0;
+  geom_enum_typ ;1;
+  serial ;C64AB03C641838225F6DDC9B0000005B ;
+    heat_flow_thru+T  ; 3.3192e-002;
+    heat_flow_thru-T  ; 0.0000e+000;
+    heat_flow_thru+C  ; 3.3192e-002;
+    heat_flow_thru-C  ; 0.0000e+000;
+    heat_flow_thru+D  ; 0.0000e+000;
+    heat_flow_thru-D  ; 0.0000e+000;
+    surface_temp  ; 5.0351e+001;
+    max_surface_temp  ; 5.0411e+001;
+    min_surface_temp  ; 5.0230e+001;
+    SS_max_surface_temp  ;-1.0000e+030;
+    SS_min_surface_temp  ; 1.0000e+030;
+    SF_surface_temp  ; 5.0351e+001;
+    SF_max_surface_temp  ; 5.0411e+001;
+    SF_min_surface_temp  ; 5.0230e+001;
+    surface_area  ; 1.0000e-004;
+    SS_surface_area  ; 0.0000e+000;
+    SF_surface_area  ; 1.0000e-004;
+*------------------
+zoneod; *wall   000c=bw  ;
+  boundary_type   ;internal;
+  solver_geom_typ ;IYHIFACE;
+  geom_label_typ ;IYLOFACE;
+  position_num ;0;
+  geom_enum_typ ;1;
+  serial ;C64AB03C641838225F6DDC9B0000005B ;
+*WallDiffModification Zone
+*------------------
+zoneod; /*wall  000d=bw  ;
+  boundary_type   ;internal;
+  solver_geom_typ ;IYHIFACE;
+  geom_label_typ ;IYLOFACE;
+  position_num ;0;
+  geom_enum_typ ;1;
+  serial ;C64AB03C641838225F6DDC9B0000005B ;
+    heat_flow_thru+T  ; 0.0000e+000;
+    heat_flow_thru-T  ; 4.9612e-002;
+    heat_flow_thru+C  ; 0.0000e+000;
+    heat_flow_thru-C  ; 4.9612e-002;
+    heat_flow_thru+D  ; 0.0000e+000;
+    heat_flow_thru-D  ; 0.0000e+000;
+    surface_temp  ; 5.0256e+001;
+    max_surface_temp  ; 5.0269e+001;
+    min_surface_temp  ; 5.0230e+001;
+    SS_max_surface_temp  ;-1.0000e+030;
+    SS_min_surface_temp  ; 1.0000e+030;
+    SF_surface_temp  ; 5.0256e+001;
+    SF_max_surface_temp  ; 5.0269e+001;
+    SF_min_surface_temp  ; 5.0230e+001;
+    surface_area  ; 1.0000e-004;
+    SS_surface_area  ; 0.0000e+000;
+    SF_surface_area  ; 1.0000e-004;
+*------------------
+zoneod; *wall   000e=bw  ;
+  boundary_type   ;internal;
+  solver_geom_typ ;IYLOFACE;
+  geom_label_typ ;IYHIFACE;
+  position_num ;0;
+  geom_enum_typ ;1;
+  serial ;C64AB03C641838225F6DDC9B0000005B ;
+*WallDiffModification Zone
+*------------------
+zoneod; /*wall  000f=bw  ;
+  boundary_type   ;internal;
+  solver_geom_typ ;IYLOFACE;
+  geom_label_typ ;IYHIFACE;
+  position_num ;0;
+  geom_enum_typ ;1;
+  serial ;C64AB03C641838225F6DDC9B0000005B ;
+    heat_flow_thru+T  ; 1.7057e-002;
+    heat_flow_thru-T  ; 0.0000e+000;
+    heat_flow_thru+C  ; 1.7057e-002;
+    heat_flow_thru-C  ; 0.0000e+000;
+    heat_flow_thru+D  ; 0.0000e+000;
+    heat_flow_thru-D  ; 0.0000e+000;
+    surface_temp  ; 5.0428e+001;
+    max_surface_temp  ; 5.0441e+001;
+    min_surface_temp  ; 5.0404e+001;
+    SS_max_surface_temp  ;-1.0000e+030;
+    SS_min_surface_temp  ; 1.0000e+030;
+    SF_surface_temp  ; 5.0428e+001;
+    SF_max_surface_temp  ; 5.0441e+001;
+    SF_min_surface_temp  ; 5.0404e+001;
+    surface_area  ; 1.0000e-004;
+    SS_surface_area  ; 0.0000e+000;
+    SF_surface_area  ; 1.0000e-004;
+*------------------
+zoneod; *wall   000g=bw  ;
+  boundary_type   ;internal;
+  solver_geom_typ ;IZHIFACE;
+  geom_label_typ ;IZLOFACE;
+  position_num ;0;
+  geom_enum_typ ;1;
+  serial ;C64AB03C641838225F6DDC9B0000005B ;
+*WallDiffModification Zone
+*------------------
+zoneod; /*wall  000h=bw  ;
+  boundary_type   ;internal;
+  solver_geom_typ ;IZHIFACE;
+  geom_label_typ ;IZLOFACE;
+  position_num ;0;
+  geom_enum_typ ;1;
+  serial ;C64AB03C641838225F6DDC9B0000005B ;
+    heat_flow_thru+T  ; 0.0000e+000;
+    heat_flow_thru-T  ; 4.3351e-001;
+    heat_flow_thru+C  ; 0.0000e+000;
+    heat_flow_thru-C  ; 4.3351e-001;
+    heat_flow_thru+D  ; 0.0000e+000;
+    heat_flow_thru-D  ; 0.0000e+000;
+    surface_temp  ; 5.0374e+001;
+    max_surface_temp  ; 5.0445e+001;
+    min_surface_temp  ; 5.0230e+001;
+    SS_max_surface_temp  ;-1.0000e+030;
+    SS_min_surface_temp  ; 1.0000e+030;
+    SF_surface_temp  ; 5.0374e+001;
+    SF_max_surface_temp  ; 5.0445e+001;
+    SF_min_surface_temp  ; 5.0230e+001;
+    surface_area  ; 2.5000e-003;
+    SS_surface_area  ; 0.0000e+000;
+    SF_surface_area  ; 2.5000e-003;
+*------------------
+zoneod; *wall   000i=bw  ;
+  boundary_type   ;internal;
+  solver_geom_typ ;IZLOFACE;
+  geom_label_typ ;IZHIFACE;
+  position_num ;0;
+  geom_enum_typ ;1;
+  serial ;C64AB03C641838225F6DDC9B0000005B ;
+*WallDiffModification Zone
+*------------------
+zoneod; /*wall  000j=bw  ;
+  boundary_type   ;internal;
+  solver_geom_typ ;IZLOFACE;
+  geom_label_typ ;IZHIFACE;
+  position_num ;0;
+  geom_enum_typ ;1;
+  serial ;C64AB03C641838225F6DDC9B0000005B ;
+    heat_flow_thru+T  ; 4.3350e-001;
+    heat_flow_thru-T  ; 0.0000e+000;
+    heat_flow_thru+C  ; 4.3350e-001;
+    heat_flow_thru-C  ; 0.0000e+000;
+    heat_flow_thru+D  ; 0.0000e+000;
+    heat_flow_thru-D  ; 0.0000e+000;
+    surface_temp  ; 5.0374e+001;
+    max_surface_temp  ; 5.0445e+001;
+    min_surface_temp  ; 5.0230e+001;
+    SS_max_surface_temp  ;-1.0000e+030;
+    SS_min_surface_temp  ; 1.0000e+030;
+    SF_surface_temp  ; 5.0374e+001;
+    SF_max_surface_temp  ; 5.0445e+001;
+    SF_min_surface_temp  ; 5.0230e+001;
+    surface_area  ; 2.5000e-003;
+    SS_surface_area  ; 0.0000e+000;
+    SF_surface_area  ; 2.5000e-003;
+*------------------
+zoneod; thermal 000k=vs  ;
+  boundary_type   ;external;
+  solver_geom_typ ;VOLUME;
+  geom_label_typ ;CELL;
+  position_num ;0;
+  geom_enum_typ ;1;
+  serial ;C64AB03C641838225F6DDC9B0000005B ;
+    max_temp  ; 5.0446e+001;
+    min_temp  ; 5.0233e+001;
+    heat_flow_in_T  ; 1.0000e+000;
+    heat_flow_out_T  ; 0.0000e+000;
+*------------------
+zoneod; !solprop000l=bw  ;
+  boundary_type   ;external;
+  solver_geom_typ ;VOLUME;
+  geom_label_typ ;CELL;
+  position_num ;0;
+  geom_enum_typ ;1;
+  serial ;C64AB03C641838225F6DDC9B0000005B ;
+*------------------
+zoneod; *bodybouss  =bdy ;
+  boundary_type   ;external;
+  solver_geom_typ ;CELL;
+  geom_label_typ ;CELL;
+  position_num ;0;
+  geom_enum_typ ;0;
+  serial ;00000000000000000000000000000000 ;
+*------------------
+zoneod; *bodybouss  =bdy ;
+  boundary_type   ;external;
+  solver_geom_typ ;CELL;
+  geom_label_typ ;CELL;
+  position_num ;0;
+  geom_enum_typ ;0;
+  serial ;00000000000000000000000000000000 ;
+*--------------------------------
+*========================================
+*= end of zonal output ==================
+end_of_data ;
+*========================================

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profiles_config>
+    <!--Copyright 2017 Mentor Graphics Corporation-->
+    <!--All Rights Reserved-->
+    <!--THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY-->
+    <!--INFORMATION WHICH IS THE PROPERTY OF MENTOR-->
+    <!--GRAPHICS CORPORATION OR ITS LICENSORS AND IS-->
+    <!--SUBJECT TO LICENSE TERMS.-->
+    <plots>
+        <plot grid_end_x="0" grid_end_y="0" grid_end_z="0" grid_start_x="0" grid_start_y="0" grid_start_z="0" id="1" show_legend="true" timestep="0" type="residualsVIteration" variable_type="Unknown Variable">
+            <x_axis lower_limit="automaticLimit" lower_limit_percentage="0" lower_limit_value="0" scale="linearScale" upper_limit="automaticLimit" upper_limit_percentage="100" upper_limit_value="1000"/>
+            <y_axis lower_limit="manualLimit" lower_limit_percentage="0" lower_limit_value="1" scale="logarithmicScale" upper_limit="automaticLimit" upper_limit_percentage="100" upper_limit_value="1000"/>
+        </plot>
+        <plot grid_end_x="0" grid_end_y="0" grid_end_z="0" grid_start_x="0" grid_start_y="0" grid_start_z="0" id="4" show_legend="true" timestep="0" type="monitorPointsVIteration" variable_type="temperature">
+            <x_axis lower_limit="automaticLimit" lower_limit_percentage="0" lower_limit_value="0" scale="linearScale" upper_limit="automaticLimit" upper_limit_percentage="100" upper_limit_value="1000"/>
+            <y_axis lower_limit="automaticLimit" lower_limit_percentage="0" lower_limit_value="0" scale="linearScale" upper_limit="automaticLimit" upper_limit_percentage="100" upper_limit_value="1000"/>
+        </plot>
+        <plot grid_end_x="0.047125" grid_end_y="0.143167" grid_end_z="0.0466429" grid_start_x="-0.047125" grid_start_y="-0.04425" grid_start_z="-0.0466429" id="7" show_legend="true" timestep="0" type="resultsVDistance" variable_type="temperature">
+            <x_axis lower_limit="automaticLimit" lower_limit_percentage="0" lower_limit_value="0" scale="linearScale" upper_limit="automaticLimit" upper_limit_percentage="100" upper_limit_value="1000"/>
+            <y_axis lower_limit="automaticLimit" lower_limit_percentage="0" lower_limit_value="0" scale="linearScale" upper_limit="automaticLimit" upper_limit_percentage="100" upper_limit_value="1000"/>
+        </plot>
+    </plots>
+</profiles_config>

@@ -1,0 +1,10 @@
+summary_output_from_solver;
+solver_version; V12.0 Build 17.28.4;
+*file: fluxass.pts output from Solver
+*Copyright 1989-2017 Mentor Graphics Corporation. All Rights Reserved.
+*========================================
+*= start of fluxes output ================
+*= summary output requested =============
+*========================================
+C64AB03C641838225F6DDC9B0000005B ;1     ; 0.0000e+000     ; 1.0001e+000     ; 0.0000e+000     ; 0.0000e+000     ; 0.0000e+000     ; 0.0000e+000     ; 0.0000e+000     ; 0.0000e+000     ; 0.0000e+000;
+end_of_file;
