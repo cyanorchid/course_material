@@ -1,0 +1,129 @@
+*File:   D:/Program Files (x86)/MentorMA/flosuite_v12/flotherm/flouser/2_39_zzh_ot01.C64AB03C641838225F6DDC9B00000056/DataSets/BaseSolution/msp_1/PDTemp/zonal1 for Solver;
+* Copyright 1989-2017 Mentor Graphics Corporation. All Rights Reserved.;
+* New Zone...
+          zonecp;*wall   0008=bw ;        IXHIFACE;     5;     5;     6;    30;     6;     6;     1;    -1;
+          oszncp;*wall   0008=bw ;T;
+          zsercp;*wall   0008=bw ;C64AB03C641838225F6DDC9B0000005B;     0;     1;        IXLOFACE;
+          objnum;*wall   0008=bw ;     0;
+            cvcp;*wall   0008=bw ;     3;-2.00000e+000;0.00000e+000;
+            cvcp;*wall   0008=bw ;     4;-2.00000e+000;0.00000e+000;
+* New Zone...
+          zonecp;/*wall  0009=bw ;        IXHIFACE;     5;     5;     6;    30;     6;     6;     1;    -1;
+          oszncp;/*wall  0009=bw ;T;
+          zsercp;/*wall  0009=bw ;C64AB03C641838225F6DDC9B0000005B;     0;     1;        IXLOFACE;
+          objnum;/*wall  0009=bw ;     0;
+            cvcp;/*wall  0009=bw ;     7;-2.00000e+000;0.00000e+000;
+          htflcp;/*wall  0009=bw ;     0;     1;
+* New Zone...
+          zonecp;*wall   000a=bw ;        IXLOFACE;    31;    31;     6;    30;     6;     6;     1;    -1;
+          oszncp;*wall   000a=bw ;T;
+          zsercp;*wall   000a=bw ;C64AB03C641838225F6DDC9B0000005B;     0;     1;        IXHIFACE;
+          objnum;*wall   000a=bw ;     0;
+            cvcp;*wall   000a=bw ;     3;-2.00000e+000;0.00000e+000;
+            cvcp;*wall   000a=bw ;     4;-2.00000e+000;0.00000e+000;
+* New Zone...
+          zonecp;/*wall  000b=bw ;        IXLOFACE;    31;    31;     6;    30;     6;     6;     1;    -1;
+          oszncp;/*wall  000b=bw ;T;
+          zsercp;/*wall  000b=bw ;C64AB03C641838225F6DDC9B0000005B;     0;     1;        IXHIFACE;
+          objnum;/*wall  000b=bw ;     0;
+            cvcp;/*wall  000b=bw ;     7;-2.00000e+000;0.00000e+000;
+          htflcp;/*wall  000b=bw ;     0;     1;
+* New Zone...
+          zonecp;*wall   000c=bw ;        IYHIFACE;     6;    30;     5;     5;     6;     6;     1;    -1;
+          oszncp;*wall   000c=bw ;T;
+          zsercp;*wall   000c=bw ;C64AB03C641838225F6DDC9B0000005B;     0;     1;        IYLOFACE;
+          objnum;*wall   000c=bw ;     0;
+            cvcp;*wall   000c=bw ;     2;-2.00000e+000;0.00000e+000;
+            cvcp;*wall   000c=bw ;     4;-2.00000e+000;0.00000e+000;
+* New Zone...
+          zonecp;/*wall  000d=bw ;        IYHIFACE;     6;    30;     5;     5;     6;     6;     1;    -1;
+          oszncp;/*wall  000d=bw ;T;
+          zsercp;/*wall  000d=bw ;C64AB03C641838225F6DDC9B0000005B;     0;     1;        IYLOFACE;
+          objnum;/*wall  000d=bw ;     0;
+            cvcp;/*wall  000d=bw ;     7;-2.00000e+000;0.00000e+000;
+          htflcp;/*wall  000d=bw ;     0;     1;
+* New Zone...
+          zonecp;*wall   000e=bw ;        IYLOFACE;     6;    30;    31;    31;     6;     6;     1;    -1;
+          oszncp;*wall   000e=bw ;T;
+          zsercp;*wall   000e=bw ;C64AB03C641838225F6DDC9B0000005B;     0;     1;        IYHIFACE;
+          objnum;*wall   000e=bw ;     0;
+            cvcp;*wall   000e=bw ;     2;-2.00000e+000;0.00000e+000;
+            cvcp;*wall   000e=bw ;     4;-2.00000e+000;0.00000e+000;
+* New Zone...
+          zonecp;/*wall  000f=bw ;        IYLOFACE;     6;    30;    31;    31;     6;     6;     1;    -1;
+          oszncp;/*wall  000f=bw ;T;
+          zsercp;/*wall  000f=bw ;C64AB03C641838225F6DDC9B0000005B;     0;     1;        IYHIFACE;
+          objnum;/*wall  000f=bw ;     0;
+            cvcp;/*wall  000f=bw ;     7;-2.00000e+000;0.00000e+000;
+          htflcp;/*wall  000f=bw ;     0;     1;
+* New Zone...
+          zonecp;*wall   000g=bw ;        IZHIFACE;     6;    30;     6;    30;     5;     5;     1;    -1;
+          oszncp;*wall   000g=bw ;T;
+          zsercp;*wall   000g=bw ;C64AB03C641838225F6DDC9B0000005B;     0;     1;        IZLOFACE;
+          objnum;*wall   000g=bw ;     0;
+            cvcp;*wall   000g=bw ;     2;-2.00000e+000;0.00000e+000;
+            cvcp;*wall   000g=bw ;     3;-2.00000e+000;0.00000e+000;
+* New Zone...
+          zonecp;/*wall  000h=bw ;        IZHIFACE;     6;    30;     6;    30;     5;     5;     1;    -1;
+          oszncp;/*wall  000h=bw ;T;
+          zsercp;/*wall  000h=bw ;C64AB03C641838225F6DDC9B0000005B;     0;     1;        IZLOFACE;
+          objnum;/*wall  000h=bw ;     0;
+            cvcp;/*wall  000h=bw ;     7;-2.00000e+000;0.00000e+000;
+          htflcp;/*wall  000h=bw ;     0;     1;
+* New Zone...
+          zonecp;*wall   000i=bw ;        IZLOFACE;     6;    30;     6;    30;     7;     7;     1;    -1;
+          oszncp;*wall   000i=bw ;T;
+          zsercp;*wall   000i=bw ;C64AB03C641838225F6DDC9B0000005B;     0;     1;        IZHIFACE;
+          objnum;*wall   000i=bw ;     0;
+            cvcp;*wall   000i=bw ;     2;-2.00000e+000;0.00000e+000;
+            cvcp;*wall   000i=bw ;     3;-2.00000e+000;0.00000e+000;
+* New Zone...
+          zonecp;/*wall  000j=bw ;        IZLOFACE;     6;    30;     6;    30;     7;     7;     1;    -1;
+          oszncp;/*wall  000j=bw ;T;
+          zsercp;/*wall  000j=bw ;C64AB03C641838225F6DDC9B0000005B;     0;     1;        IZHIFACE;
+          objnum;/*wall  000j=bw ;     0;
+            cvcp;/*wall  000j=bw ;     7;-2.00000e+000;0.00000e+000;
+          htflcp;/*wall  000j=bw ;     0;     1;
+* New Zone...
+          zonecp;thermal 000k=vs ;        VOLUME  ;     6;    30;     6;    30;     6;     6;     1;    -1;
+          zsercp;thermal 000k=vs ;C64AB03C641838225F6DDC9B0000005B;     0;     1;        CELL    ;
+          objnum;thermal 000k=vs ;     0;
+            cvcp;thermal 000k=vs ;     7;-1.00000e+002;1.99005e+002;
+* New Zone...
+          zonecp;!solprop000l=bw ;        VOLUME  ;     6;    30;     6;    30;     6;     6;     1;    -1;
+          zsercp;!solprop000l=bw ;C64AB03C641838225F6DDC9B0000005B;     0;     1;        CELL    ;
+          objnum;!solprop000l=bw ;     0;
+          tdczcp;!solprop000l=bw ;1.80000e+002;0.00000e+000;0.00000e+000;
+          rhcpcp;!solprop000l=bw ;2.70000e+003;9.63000e+002;
+          confac;!solprop000l=bw ;1.00000e+000;1.00000e+000;1.00000e+000;
+          tdercp;!solprop000l=bw ;3.70000e-008;0.00000e+000;0.00000e+000;0.00000e+000;0.00000e+000;
+* New Zone...
+          zonecp;/mid    000m=bw ;        IXHIFACE;     5;    30;     6;    30;     6;     6;     1;    -1;
+          oszncp;/mid    000m=bw ;T;
+          zsercp;/mid    000m=bw ;C64AB03C641838225F6DDC9B0000005B;     0;     1;        CELL    ;
+          objnum;/mid    000m=bw ;     0;
+            cvcp;/mid    000m=bw ;     7;1.00000e+015;0.00000e+000;
+          htflcp;/mid    000m=bw ;     2;     0;
+* New Zone...
+          zonecp;/mid    000n=bw ;        IYHIFACE;     6;    30;     5;    30;     6;     6;     1;    -1;
+          oszncp;/mid    000n=bw ;T;
+          zsercp;/mid    000n=bw ;C64AB03C641838225F6DDC9B0000005B;     0;     1;        CELL    ;
+          objnum;/mid    000n=bw ;     0;
+            cvcp;/mid    000n=bw ;     7;1.00000e+015;0.00000e+000;
+          htflcp;/mid    000n=bw ;     2;     0;
+* New Zone...
+          zonecp;/mid    000o=bw ;        IZHIFACE;     6;    30;     6;    30;     5;     6;     1;    -1;
+          oszncp;/mid    000o=bw ;T;
+          zsercp;/mid    000o=bw ;C64AB03C641838225F6DDC9B0000005B;     0;     1;        CELL    ;
+          objnum;/mid    000o=bw ;     0;
+            cvcp;/mid    000o=bw ;     7;1.00000e+015;0.00000e+000;
+          htflcp;/mid    000o=bw ;     2;     0;
+* New Zone...
+          zonecp;*bodybouss  =bdy;        CELL    ;     1;    35;     1;    35;     1;    11;     1;    -1;
+          zsercp;*bodybouss  =bdy;00000000000000000000000000000000;     0;     0;        CELL    ;
+          objnum;*bodybouss  =bdy;     0;
+            cvcp;*bodybouss  =bdy;     2;-1.00000e+002;0.00000e+000;
+            cvcp;*bodybouss  =bdy;     3;-1.00000e+002;-3.27000e-002;
+            cvcp;*bodybouss  =bdy;     4;-1.00000e+002;0.00000e+000;
+*  
+     end_of_data;
