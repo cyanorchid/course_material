@@ -5,7 +5,7 @@ clientsocket = socket()
 
 host = sys.argv[1]
 port = 10010
-clientsocket.connect((host,port))
+clientsocket.connect((host, port))
 
 # http_request = "GET /hello.html /HTTP/1.1\r\nhost:{}\r\n\r\n".format(host)
 
