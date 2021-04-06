@@ -19,14 +19,14 @@ boundary = 'next-block'
 mailserver = "smtp.qq.com"
 
 # Sender and reciever
-fromaddress = "2435076775@qq.com"
+fromaddress = "zhang-z.h@foxmail.com"
 toaddress = "zhang-z.h@foxmail.com"
 toaddress = "2019270103014@std.uestc.edu.cn"
 # toaddress = "656739092@qq.com"
 
 # Auth information (Encode with base64)
 username = base64.b64encode(fromaddress.encode()) .decode()
-password = base64.b64encode("mqpyvfzyfbbvdiia".encode()) .decode()
+password = base64.b64encode("*****".encode()) .decode()
 
 # Create socket called clientSocket and establish a TCP connection with mailserver
 clientSocket = socket(AF_INET, SOCK_STREAM)
@@ -95,8 +95,8 @@ message += 'subject:' + subject + '\r\n'
 message += 'Date:' + send_time + '\r\n'
 message += 'MIME-Version: 1.0\r\n'
 if attach_file:
-    message += 'Content-Type:multipart/mixed;boundary=next-block\r\n'
-    #message += "next-block\r\n"
+    message += 'Content-Type: multipart/mixed; boundary=next-block\r\n'
+    message += "\n--next-block\r\n"
 message += 'Content-Type:' + contenttype + '\r\n'
 # if attach_file:
 #     message += "next-block\r\n"
@@ -108,15 +108,16 @@ message += '\r\n' + msg + '\r\n\r\n'
 if attach_file:
     file = '/Users/zzh/desktop/hello.txt'
     filename = 'hello.txt'
-    message += '\nnext-block\r\n'
-    message += 'Content-Type:text/plain;name=hello.txt\r\n'
+    message += '\n--next-block\r\n'
+    message += 'Content-Type: text/plain; name=hello.txt\r\n'
     message += 'Content-Disposition:attachment;filename=\"hello.txt\"\r\n\r\n'
     f = open(file)
     filedata = f.read()
     message += filedata
 clientSocket.sendall(message.encode())
 
-print(message)
+if debug:
+    print(message)
 # Message ends with a single period and print server response.
 clientSocket.sendall((''+endmsg+'\r\n').encode())
 recv = clientSocket.recv(1024).decode()
